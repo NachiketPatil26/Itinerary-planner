@@ -10,9 +10,9 @@ const app = express();
 const port = 3000;
 const apiKey = process.env.API_KEY;
 
-app.use(express.static("public"));
+app.use(express.static("Public"));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set("views", path.join(__dirname, "views")); 
+app.set("views", path.join(__dirname, "Views")); 
 
 const genAI = new GoogleGenerativeAI(apiKey);
 
