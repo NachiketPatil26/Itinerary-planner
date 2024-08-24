@@ -21,7 +21,7 @@ body {
     width: 90%;
     max-width: 800px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 3800px;
   
 }
 
@@ -80,7 +80,6 @@ input[type="submit"]:hover {
 }
 
 .itinerary {
-    margin-top: 1500px;
     text-align: left;
     font-family: 'Poppins', sans-serif;
     color: #f4f4f4;
