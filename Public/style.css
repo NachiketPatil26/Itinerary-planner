@@ -21,6 +21,7 @@ body {
   width: 90%;
   max-width: 800px;
   text-align: center;
+  margin-top: auto;
 }
 
 .containor{background-color: #2c2c2e;
