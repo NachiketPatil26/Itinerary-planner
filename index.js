@@ -11,7 +11,7 @@ const apiKey = process.env.API_KEY;
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
 
 const genAI = new GoogleGenerativeAI(apiKey);
 
