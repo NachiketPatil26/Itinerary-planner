@@ -1,3 +1,4 @@
+import path from "path"; 
 import dotenv from "dotenv";
 import express from "express";
 import bodyParser from "body-parser";
@@ -11,7 +12,7 @@ const apiKey = process.env.API_KEY;
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set("views", path.join(__dirname, "views"));
+app.set("views", path.join(__dirname, "views")); 
 
 const genAI = new GoogleGenerativeAI(apiKey);
 
