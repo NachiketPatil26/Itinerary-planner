@@ -1,6 +1,7 @@
 import path from 'path';
 import url from 'url';
 import dotenv from 'dotenv';
+import { marked } from "marked";
 import express from 'express';
 import bodyParser from 'body-parser';
 import { GoogleGenerativeAI } from '@google/generative-ai';
